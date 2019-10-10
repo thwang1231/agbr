@@ -1,0 +1,26 @@
+{
+    "mf": {
+        "sampler": {
+            "relation": "adjacency"
+        },
+        "mapper": {
+            "action":   "lookup"
+        },
+        "optimizer": {
+            "metric":   "cosine",
+            "loss":     "rmse"
+        }
+    },
+    "bpr": {
+        "sampler": {
+            "relation": "adjacency"
+        },
+        "mapper": {
+            "action":   "lookup"
+        },
+        "optimizer": {
+            "metric":   "cosine",
+            "loss":     "ranking"
+        }
+    }
+}
